@@ -20,19 +20,6 @@ endif
 libyami_source_h = \
 	interface/Yami.h \
 	interface/YamiC.h \
-	interface/VideoCommonDefs.h \
-	interface/VideoDecoderDefs.h \
-	interface/VideoDecoderHost.h \
-	interface/VideoDecoderInterface.h \
-	interface/VideoEncoderDefs.h \
-	interface/VideoEncoderHost.h \
-	interface/VideoEncoderInterface.h \
-	interface/VideoPostProcessDefs.h \
-	interface/VideoPostProcessHost.h
-	interface/VideoPostProcessInterface.h
-	interface/
-	interface/
-	interface/
 	$(NULL)
 
 lib_LTLIBRARIES = libyami.la
